@@ -39,12 +39,12 @@ int main()
             Balance -= Withdraw(Balance);
             break;
         case 4:
-            cout << "Have a nice day sir !!\n"
+            cout << "Have a nice day sir !!\n";
             break;
         default:
             break;
         }
-        cout << "************* *************** ************\n";
+        
     } while (Choice != 4);
 
     //Fibin();
@@ -71,7 +71,9 @@ double Withdraw(double Balance) {
         return amount;
     }
     else {
-        cout << "You are trying to withdraw more than you have";
+        cout << "************* *************** ************\n";
+        cout << "You are trying to withdraw more than you have\n";
+        cout << "************* *************** ************\n";
         return 0;
     }
 }
